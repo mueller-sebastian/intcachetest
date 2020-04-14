@@ -1,0 +1,23 @@
+{
+    "name": "elementareteilchen/intcachetest",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElementareTeilchen\\Intcachetest\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ElementareTeilchen\\Intcachetest\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "elementareteilchen/intcachetest": "self.version",
+        "typo3-ter/intcachetest": "self.version"
+    }
+}
